@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-/* Background inspired by the bright vibe of Madoka Magica */
+
 body {
   background: linear-gradient(135deg, #ffedf3, #fbc2eb);
   color: #333;
@@ -43,7 +43,7 @@ h2 {
   text-align: center;
 }
 
-/* Minor sections with a gentle, magical feel */
+
 .minor-section {
   background: rgba(250, 218, 221, 0.9);
   padding: 1.5em;
@@ -53,7 +53,6 @@ h2 {
   text-align: center;
 }
 
-/* Links styled with the vibrant colors of Madoka's theme */
 a {
   color: #7209b7;
   text-decoration: none;
@@ -65,7 +64,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Nav section with cute and friendly vibes */
+
 nav {
   margin-top: 2.5em;
   text-align: center;
@@ -80,7 +79,7 @@ nav li {
   margin: 0 1.5em;
 }
 
-/* Images styled with rounded frames and a soft border */
+
 img {
   display: block;
   margin: 1.5em auto;
@@ -97,7 +96,7 @@ img {
   text-align: center;
 }
 
-/* Add a slight sparkle animation to enhance the magical effect */
+
 @keyframes sparkle {
   0% { text-shadow: 0 0 8px #beb2ff; }
   50% { text-shadow: 0 0 16px #f4b6ff; }
@@ -108,7 +107,7 @@ h1:hover {
   animation: sparkle 2s infinite;
 }
 
-/* Responsive design for mobile */
+
 @media screen and (max-width: 600px) {
   body {
       padding: 1.5em;
