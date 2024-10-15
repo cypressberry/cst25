@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-/* Background inspired by the bright yet bittersweet vibe of Madoka Magica */
+/* Background inspired by the bright vibe of Madoka Magica */
 body {
   background: linear-gradient(135deg, #ffedf3, #fbc2eb);
   color: #333;
@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 
-/* Styling for main content area */
+/* Styling for the main content area */
 main {
   max-width: 900px;
   margin: 2em auto;
@@ -25,7 +25,7 @@ main {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Section header reflecting Madoka's hopeful spirit */
+/* Section header */
 h1 {
   color: #decbff;
   font-size: 3em;
