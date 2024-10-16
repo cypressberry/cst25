@@ -13,6 +13,11 @@ body {
   color: #333;
   line-height: 1.6;
   text-align: center;
+  background-image: url(https://64.media.tumblr.com/ffdc7a6045ca365d1e78c2638f5e560c/tumblr_oe2hk2Cztw1ujwmbqo2_540.gif);
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
 }
 
 /* Styling for the main content area */

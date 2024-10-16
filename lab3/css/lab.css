@@ -8,111 +8,119 @@
     /* background-color: #ded9f7; */
   /* } */
   /* General reset for consistent styling */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: monospace
-}
-
-
-body {
-  background: linear-gradient(135deg, #292e49, #8661ff);
-  color: #ffffff;
-  line-height: 1.6;
-}
-
-/* Styling for main content area */
-main {
-  max-width: 800px;
-  margin: 2em auto;
-  padding: 1.5em;
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-
-h1 {
-  color: #e0e6ff;
-  font-size: 2.5em;
-  text-align: center;
-  margin-bottom: 1em;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
-}
-
-h2 {
-  color: #c678dd;
-  margin-top: 1em;
-  font-size: 1.75em;
-  border-bottom: 2px solid #8e44ad;
-  padding-bottom: 0.5em;
-}
-
-
-.minor-section {
-  background: rgba(40, 40, 50, 0.8);
-  padding: 1em;
-  border-radius: 10px;
-  margin-top: 1em;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-}
-
-
-a {
-  color: #742de7;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a:hover {
-  color: #dfd1ff;
-  text-decoration: underline;
-}
-
-
-nav {
-  margin-top: 2em;
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav li {
-  display: inline;
-  margin: 0 1em;
-}
-
-/* Images with a slightly rounded frame to add softness */
-img {
-  display: block;
-  margin: 1em auto;
-  border: 3px solid #6a1b9a;
-  border-radius: 15px;
-}
-
-
-@media screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace
+  }
+  
+  
   body {
-      padding: 1em;
-  }
+    background: linear-gradient(135deg, #292e49, #8661ff);
+    color: #ffffff;
+    line-height: 1.6;
 
+    background-image: url(https://images.hdqwalls.com/download/homura-akemi-from-mahou-shoujo-madoka-magica-rc-1280x2120.jpg);
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Styling for main content area */
   main {
-      padding: 1em;
-  }
+    /* max-width: 800px; */
 
+    width: 80%;
+    margin: 2em auto;
+    padding: 1.5em;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  
   h1 {
-      font-size: 2em;
+    color: #e0e6ff;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
   }
-
+  
   h2 {
-      font-size: 1.5em;
+    color: #c678dd;
+    margin-top: 1em;
+    font-size: 1.75em;
+    border-bottom: 2px solid #8e44ad;
+    padding-bottom: 0.5em;
   }
-
+  
+  
+  .minor-section {
+    background: rgba(40, 40, 50, 0.8);
+    padding: 1em;
+    border-radius: 10px;
+    margin-top: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  a {
+    color: #742de7;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #dfd1ff;
+    text-decoration: underline;
+  }
+  
+  
+  nav {
+    margin-top: 2em;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
   nav li {
+    display: inline;
+    margin: 0 1em;
+  }
+  
+  /* Images with a slightly rounded frame to add softness */
+  img {
+    display: block;
+    margin: 1em auto;
+    border: 3px solid #6a1b9a;
+    border-radius: 15px;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    body {
+      padding: 1em;
+    }
+  
+    main {
+      padding: 1em;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    h2 {
+      font-size: 1.5em;
+    }
+  
+    nav li {
       display: block;
       margin: 1em 0;
-  }
-} 
+    }
+  } 
