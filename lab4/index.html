@@ -1,53 +1,115 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 4 - Subject/Topic</title>
+  <head>
+    <!-- This title is used for tabs and bookmarks -->
+    <title>Lab 4 - Pseudocoding and Problem-solving</title>
 
-	<!-- Use UTF character set, a good idea with any webpage -->
-  	<meta charset="UTF-8" />
-	<!-- Set viewport so page remains consistently scaled w narrow devices -->
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	
-	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
-	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" DEFER></script>
-</head>
-<body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
-	<main id="content">
-		<section>
-			<h1>Lab 4 - Pseudocoding and Problem-solving</h1>
-			<div class="minor-section">
-					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
-			</div>
+    <!-- Use UTF character set, a good idea with any webpage -->
+    <meta charset="UTF-8" />
+    <!-- Set viewport so page remains consistently scaled w narrow devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-			<div class="minor-section">
-					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
-			</div>
+    <!-- Include a sitewide CSS file for consistent styling across the site -->
+    <link rel="stylesheet" type="text/css" href="../css/site.css" />
+    <!-- Lab-specifc CSS file for any special styling of this particular page -->
+    <link rel="stylesheet" type="text/css" href="css/lab.css" />
 
-			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
-			</div>
+    <!-- load jQuery library to make javascript easier (must be above our lab js)-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Link to javascript file - DEFER waits until all elements are rendered -->
+    <script type="text/javascript" src="./js/lab.js" defer></script>
+  </head>
+  <body>
+    <!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+    <main id="content">
+      <section>
+        <h1>Lab 4 - Pseudocoding and Problem-solving</h1>
 
-			<div class="minor-section">
-					<h2>Results</h2>
-					<div id="output"></div>
-			</div>
-		</section>
-		<nav id="links">
-			<!-- Put links to other pages (including the homepage) here. -->
-			<ul> <li><a href="../index.html">Carly's Homepage</a></li></ul>
-		</nav>
-	</main>
-</body>
+        <div class="minor-section">
+          <h2>Challenge</h2>
+          <p>The challenge for this assignment was to create pseudocode for and everyday task and a simple computer game.</p>
+        </div>
+
+		<div class="minor-section">
+          <h2>Problems</h2>
+          <p>For this assignment, I encountered issues relating to the use of the "pre" tag in HTML in order to format
+			code on the page. In order for the code to be properly rendered, I needed to break tab conventions in the HTML file which my 
+			HTML prettier does not like. The problem is that indenting my code block properly results in those exact indentations being
+			translated into the final website which is not ideal seeing as our site does not use the entire width of the page for content
+			to begin with in order to better display our image backgrounds.
+		  </p>
+        </div>
+
+        <div class="minor-section">
+          <h2>Results</h2>
+          <div id="output">
+			  <p>Our results for this assignment can be viewed in the sections below:</p>
+		  </div>
+          <div class="minor-section">
+            <h3>Making my Favorite Sandwich at the Dining Hall.</h3>
+            <pre>
+1. Get a plate
+	- Obtain a plate from a stack located in the dining hall 
+2. Assemble the ingredients on the sandwich in order 
+	- Collect 2 slices of buttermilk bread from the bread drawers 
+	- Place slices on the plate 
+	- Spread mayonnaise and thousand islands dressing on the bread slices 
+	- Gather enough onion slices to cover the surface of the bread 
+	- Collect 3 tomato slices and cover the onion slices with them 
+	- Gather 3 “rolls” of the sliced corned beef and spread evenly on top of the tomato slices 
+	- Obtaining a single large piece of lettuce and put it on top of the tomato slices 
+	- Finish by laying the second slice of bread on top of the tomato slices dressing side down. 
+3. Cook the sandwich for 5 minutes in the panini press 
+	- Open the press if it is not already. 
+	- Transport the sandwich inside the mouth of the panini press 
+	- Pull the lever to close the press 
+	- Wait 5 minutes 
+	- Push the lever to open the press 
+	- Remove the sandwich 
+4. Place the sandwich on the plate 
+							</pre>
+          </div>
+          <div class="minor-section">
+            <h3>Pseudocode for a "Guess the Number" Game</h3>
+            <pre>
+// Guess_The_Number_Game
+
+
+// 1. Initialize the Game
+//    - Display Instructions
+//    - Generate the number (range 1-100)
+
+
+// 2. User Input
+//    - Prompt player to give a guess
+
+
+// 3. Validate Input
+//    - Check if guess is a valid number within the 1-100 range
+
+
+// 4. Give Feedback
+//    - If the guess is too high, tell the player it's too high
+//    - If the guess is too low, tell the player it's too low
+//    - If the guess is correct, congratulate the player
+
+
+// 5. Ask if the Player Would Like to Play Again
+//    - After a correct guess has been made, ask the player if they’d like to go again
+//    - If yes, reset the game and generate a new random number
+//    - If no, end the game
+							</pre
+            >
+          </div>
+        </div>
+      </section>
+      <nav id="links">
+        <!-- Put links to other pages (including the homepage) here. -->
+        <ul>
+          <li><a href="../index.html">Go: Back Home</a></li>
+        </ul>
+      </nav>
+    </main>
+  </body>
 </html>
