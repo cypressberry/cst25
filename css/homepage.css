@@ -3,17 +3,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Nunito', sans-serif;
+  font-family: monospace;
   text-align: center;
 }
 
 
 body {
-  background: linear-gradient(135deg, #ffedf3, #fbc2eb);
+  background: linear-gradient(135deg, #ffb0ca, #fbc2eb);
   color: #333;
   line-height: 1.6;
   text-align: center;
-  background-image: url(https://64.media.tumblr.com/ffdc7a6045ca365d1e78c2638f5e560c/tumblr_oe2hk2Cztw1ujwmbqo2_540.gif);
+  background-image: url(https://preview.redd.it/could-madokami-do-more-if-she-wanted-to-v0-xf85x4ujer1b1.gif?width=500&auto=webp&s=2d683b47651d8d921433feaaec16da7ab8b77106);
   background-size: cover;
 
   display: flex;
@@ -59,13 +59,13 @@ h2 {
 }
 
 a {
-  color: #7209b7;
+  color: #4309b7;
   text-decoration: none;
   font-weight: bold;
 }
 
 a:hover {
-  color: #6d44ff;
+  color: #ffffff;
   text-decoration: underline;
 }
 
