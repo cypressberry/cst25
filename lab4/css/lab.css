@@ -1,9 +1,129 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+body {
+  background: linear-gradient(135deg, #a2d0e7, #66a2c9); /* Light blue gradient inspired by Sayaka's outfit */
+  color: #00274d; /* Dark navy for contrast and readability */
+  font-family: 'Verdana', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-image: url(https://i.pinimg.com/originals/84/c0/af/84c0af66a9ef7fad8a96ccd1dc71605c.jpg); /* Background image for Sayaka's theme */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+/* Main content area styling */
+main#content {
+  background: rgba(255, 255, 255, 0.85); /* Slightly transparent white background */
+  border: 2px solid #66a2c9; /* Blue border to represent Sayaka's theme */
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+section {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: #013a63; 
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 1em;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: #005b96; 
+  border-bottom: 2px solid #66a2c9;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.75em;
+}
+
+/* Styling for the minor sections */
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+  background: rgba(193, 228, 246, 0.85); /* Light sky blue with slight transparency */
+  border: 1px solid #66a2c9;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  line-height: 1.6;
+}
+
+
+#output {
+  background: #f0f8ff;
+  border: 2px solid #005b96;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+nav#links {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+nav#links a {
+  color: #005b96;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 1rem;
+}
+
+nav#links a:hover {
+  color: #013a63;
+  text-decoration: underline;
+}
+
+
+button {
+  background-color: #66a2c9; 
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005b96;
+}
+
+
+img {
+  display: block;
+  margin: 1em auto;
+  border: 3px solid #66a2c9;
+  border-radius: 15px;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  main#content {
+      padding: 1rem;
   }
+  h1 {
+      font-size: 2em;
+  }
+  h2 {
+      font-size: 1.5em;
+  }
+  nav#links a {
+      display: block;
+      margin: 0.5rem 0;
+  }
+}
