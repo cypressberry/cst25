@@ -24,7 +24,7 @@ main#content {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Section and headings styling */
+
 section {
   margin-bottom: 2rem;
 }
@@ -59,7 +59,6 @@ p {
   line-height: 1.6;
 }
 
-/* Output section styling */
 #output {
   background: #424242;
   border: 2px solid #b71c1c;
@@ -68,7 +67,7 @@ p {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Links navigation area styling */
+
 nav#links {
   margin-top: 2rem;
   text-align: center;
@@ -86,7 +85,7 @@ nav#links a:hover {
   text-decoration: underline;
 }
 
-/* Additional styling for buttons */
+
 button {
   background-color: #d32f2f; 
   color: #fff;
@@ -109,7 +108,7 @@ img {
   border-radius: 15px;
 }
 
-/* Responsive styling */
+
 @media (max-width: 600px) {
   main#content {
       padding: 1rem;
