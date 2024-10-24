@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-image: url(/lab5/img/kyokoskura.jpg); 
+  background-image: url(https://static.zerochan.net/Sakura.Kyouko.full.3735297.jpg); 
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -114,6 +114,7 @@ img {
   width: 500px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 }
+
 
 @media (max-width: 600px) {
   main#content {
