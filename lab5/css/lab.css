@@ -1,84 +1,79 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
-
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+/* Kyoko Sakura themed CSS for the lab page */
 
 body {
-  background: linear-gradient(135deg, #a2d0e7, #66a2c9); /* Light blue gradient inspired by Sayaka's outfit */
-  color: #00274d; /* Dark navy for contrast and readability */
+  background: linear-gradient(135deg, #8b1e26, #4a0f12); 
+  color: #e6e3e1; 
   font-family: 'Verdana', sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-image: url(https://i.pinimg.com/originals/01/bf/38/01bf386ca5e36277b7f072b669be192a.jpg); /*Background image for Sayaka's theme */
-  background-size:cover;
-  /* background-size:auto; */
+  background-image: url(/lab5/img/kyokoskura.jpg); 
+  background-size: cover;
   display: flex;
   justify-content: center;
 }
 
 /* Main content area styling */
 main#content {
-  background: rgba(255, 177, 194, 0.823); /* Slightly transparent white background */
-  border: 2px solid #ffffff2b; /* Blue border to represent Sayaka's theme */
+  background: rgba(153, 51, 51, 0.725);
+  border: 2px solid #8b1e26; 
   border-radius: 15px;
   max-width: 900px;
   margin: 2rem auto;
-  padding: 1.5rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-
 
 section {
   margin-bottom: 2rem;
 }
 
 h1 {
-  color: #ffc02e; 
+  color: #ff9500; 
   font-size: 2.5em;
   text-align: center;
   margin-bottom: 1em;
-  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 h2 {
-  color: #ff7aab; 
-  border-bottom: 2px solid #000000;
+  color: #e89219fe; 
+  border-bottom: 2px solid #ff9500;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
   font-size: 1.75em;
 }
+
 h3 {
-  color: #960000; 
-  border-bottom: 2px solid #c9aa66;
+  color: #4a0f12; 
+  border-bottom: 2px solid #b55a5a;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
-  font: 1.5em;
+  font-size: 1.5em;
 }
 
-/* Styling for the minor sections */
+
 .minor-section {
-  background: rgba(51, 8, 8, 0.625); /* Light sky blue with slight transparency */
-  border: 1px solid #add7ff;
+  background: rgba(102, 20, 20, 0.9); 
+  border: 1px solid #b55a5a;
   border-radius: 10px;
-  padding: 1rem;
+  padding: 1.5rem;
   margin-top: 1em;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 p {
   line-height: 1.6;
-  color: #f0f8ff;
+  color: #e6e3e1; 
 }
-
 
 #output {
-  background: #ffd0eae6;
-  border: 2px solid #000000;
-  padding: 1rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background: #b55a5a;
+  border: 2px solid #4a0f12;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
-
 
 nav#links {
   margin-top: 2rem;
@@ -86,54 +81,52 @@ nav#links {
 }
 
 nav#links a {
-  color: #5e0027;
+  color: #7e0000;
   text-decoration: none;
   font-weight: bold;
   margin: 0 1rem;
+  transition: color 0.3s ease;
 }
 
 nav#links a:hover {
-  color: #b00055;
+  color: #ec940f;
   text-decoration: underline;
 }
 
-
 button {
-  background-color: #66a2c9; 
+  background-color: #8b1e26; 
   color: #fff;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #005b96;
+  background-color: #4a0f12;
 }
-
 
 img {
   display: block;
-  margin: 1em auto;
-  /* border: 3px solid #8c737d; */
+  margin: 2em auto;
   border-radius: 15px;
-  width:500px
+  width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 }
 
-/* Responsive styling */
 @media (max-width: 600px) {
   main#content {
-      padding: 1rem;
+    padding: 1rem;
   }
   h1 {
-      font-size: 2em;
+    font-size: 2em;
   }
   h2 {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
   nav#links a {
-      display: block;
-      margin: 0.5rem 0;
+    display: block;
+    margin: 0.5rem 0;
   }
 }

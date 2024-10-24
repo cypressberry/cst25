@@ -1,9 +1,122 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+body {
+  background: linear-gradient(135deg, #e3b84e, #ffc02c); /* Light golden-yellow gradient inspired by Mami's color scheme */
+  color: #3c2f2f; 
+  font-family: 'Georgia', serif; 
+  padding: 0;
+  line-height: 1.6;
+  background-image: url(https://preview.redd.it/mami-tomoe-by-shuoruoranxing-v0-ubg8uwbviqpa1.jpg?width=1080&crop=smart&auto=webp&s=a65211f50b311f52bdf7a9106caac85b84fef710); 
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+main#content {
+  background: rgba(255, 240, 190, 0.659); 
+  border: 2px solid #f6d155; 
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Section margins */
+section {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: #84360f; 
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 1em;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: #bd6e07; 
+  border-bottom: 2px solid #5a3b1f;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.75em;
+}
+
+h3 {
+  color: #b57f00; 
+  border-bottom: 2px solid #8a5a28;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5em;
+}
+
+
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+  background: rgba(227, 184, 78, 0.7); 
+  border: 1px solid #e0ac69; 
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  line-height: 1.6;
+  color: #5b3d1d; 
+}
+
+#output {
+  background: #f5e5be;
+  border: 2px solid #b3924d;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav#links {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+nav#links a {
+  color: #b4730a; 
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 1rem;
+}
+
+nav#links a:hover {
+  color: #ffe5a9;
+  text-decoration: underline;
+}
+
+
+img {
+  display: block;
+  margin: 1em auto;
+  border: 3px solid #e3a617; 
+  border-radius: 15px;
+  width: 400px;
+  height: auto;
+}
+@media (max-width: 600px) {
+  main#content {
+      padding: 1rem;
   }
+  h1 {
+      font-size: 2em;
+  }
+  h2 {
+      font-size: 1.5em;
+  }
+  nav#links a {
+      display: block;
+      margin: 0.5rem 0;
+  }
+}
+
