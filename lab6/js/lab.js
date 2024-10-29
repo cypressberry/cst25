@@ -1,6 +1,6 @@
 // index.js - This is the logic file for the lab6 assignment
 // Author: Carly Hunter
-// Date: 10/24/24
+// Date: 10/27`/24
 
 // Declarations:
 

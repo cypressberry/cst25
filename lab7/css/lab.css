@@ -1,23 +1,23 @@
 body {
-  background: linear-gradient(135deg, #e3b84e, #ffc02c); /* Light golden-yellow gradient inspired by Mami's color scheme */
+  background: linear-gradient(135deg, #e34e4e, #ff2c2c); /* Light golden-yellow gradient inspired by Mami's color scheme */
   color: #3c2f2f; 
   font-family: 'Georgia', serif; 
   padding: 0;
   line-height: 1.6;
-  background-image: url(https://preview.redd.it/mami-tomoe-by-shuoruoranxing-v0-ubg8uwbviqpa1.jpg?width=1080&crop=smart&auto=webp&s=a65211f50b311f52bdf7a9106caac85b84fef710); 
+  background-image: url(https://64.media.tumblr.com/f53f5b87dd3782ac78aa5e8e62c00757/55e61efd8f68e42a-80/s1280x1920/c75182a52ff8e8406f3dc0c2387eeb9e1e1cbfd1.png); 
   background-size: cover;
   display: flex;
   justify-content: center;
 }
 
 main#content {
-  background: rgba(255, 240, 190, 0.659); 
-  border: 2px solid #f6d155; 
+  background: rgba(255, 190, 234, 0.659); 
+  border: 2px solid #f655a6; 
   border-radius: 15px;
   max-width: 900px;
   margin: 2rem auto;
   padding: 1.5rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
 }
 
 /* Section margins */
@@ -26,24 +26,24 @@ section {
 }
 
 h1 {
-  color: #84360f; 
+  color: #a0013e; 
   font-size: 2.5em;
   text-align: center;
   margin-bottom: 1em;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.3);
 }
 
 h2 {
-  color: #bd6e07; 
-  border-bottom: 2px solid #5a3b1f;
+  color: #bd0707; 
+  border-bottom: 2px solid #5a1f1f;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
   font-size: 1.75em;
 }
 
 h3 {
-  color: #b57f00; 
-  border-bottom: 2px solid #8a5a28;
+  color: #b5004e; 
+  border-bottom: 2px solid #8a284f;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
   font-size: 1.5em;
@@ -51,12 +51,12 @@ h3 {
 
 
 .minor-section {
-  background: rgba(227, 184, 78, 0.7); 
-  border: 1px solid #e0ac69; 
+  background: rgba(255, 234, 240, 0.7); 
+  border: 1px solid #e06985; 
   border-radius: 10px;
   padding: 1rem;
   margin-top: 1em;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
 }
 
 p {
@@ -65,11 +65,11 @@ p {
 }
 
 #output {
-  background: #f5e5be;
-  border: 2px solid #b3924d;
+  background: #fff3fa;
+  border: 2px solid #b34d79;
   padding: 1rem;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
 }
 
 #result {
@@ -84,14 +84,14 @@ nav#links {
 }
 
 nav#links a {
-  color: #b4730a; 
+  color: #b00046; 
   text-decoration: none;
   font-weight: bold;
   margin: 0 1rem;
 }
 
 nav#links a:hover {
-  color: #ffe5a9;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -99,7 +99,7 @@ nav#links a:hover {
 img {
   display: block;
   margin: 1em auto;
-  border: 3px solid #e3a617; 
+  border: 3px solid #e3177a; 
   border-radius: 15px;
   width: 400px;
   height: auto;
