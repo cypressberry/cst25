@@ -1,28 +1,45 @@
-/*
-// index.js - This is the logic file for the lab7 assignment
- * Author: Carly Hunter <casahunt@ucsc.edu>
- * Date: 10/28/24
- */
-
+// index.js - This is the logic file for lab 8.
+// Author: Carly Hunters
+// Date: 10/30/24
 
 // Constants
+array = [0, 1, 2];
 
 // Functions
+function timesTwo(x) {
+  let results = x * 2;
+  return results;
+}
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
-function getSortedName(person) {
+function myFunction(param1, param2) {
   // some code here
-  let sortedName = person.split("").sort().join("");  //Take the name and split, sort, and join into a string
-  
   // return results;
-  return sortedName;
 }
 
 function main() {
   console.log("Main function started.");
-  let person = prompt("Please enter your name"); //Launch a prompt for the user to enter their name
-  document.writeln("Your sorted name is: " + getSortedName(person)); //Print string + result of function with name passed as an arg
   // the code that makes everything happen
+  array.map(timesTwo);
+  let mapResults = array.map(timesTwo);
+  console.log("Results with map function: ", mapResults);
+
+  let squareResults = array.map(function (x) {
+    var results = x * x;
+    return results;
+  });
+  console.log("Results with anonymous function (square): ", squareResults);
+
+  // $("#output").html(mapResults);
+  // $("#output").html(squareResults);
+
+  $("#output").html(
+    "<h3>Script Output</h3> <p>Results with the function 'timesTwo': " +
+      mapResults.join(" ") +
+      ". Results with anonymous function 'square': " +
+      squareResults.join(" ") +
+      "</p>"
+  );
 }
 
 // let's get this party started

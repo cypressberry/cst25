@@ -1,18 +1,18 @@
 body {
-  background: linear-gradient(135deg, #ffb54d, #ffdc3f); 
-  color: #3c2f2f; 
-  font-family: 'Georgia', serif; 
+  background: linear-gradient(135deg, #ffb54d, #ffdc3f);
+  color: #3c2f2f;
+  font-family: "Georgia", serif;
   padding: 0;
   line-height: 1.6;
-  background-image: url(https://wallpaper-a-day.com/wp-content/uploads/2022/05/wallpaper68.png?w=2048); 
+  background-image: url(https://wallpaper-a-day.com/wp-content/uploads/2022/05/wallpaper68.png?w=2048);
   background-size: cover;
   display: flex;
   justify-content: center;
 }
 
 main#content {
-  background: rgba(45, 8, 33, 0.659); 
-  border: 2px solid #ea587f; 
+  background: rgba(45, 8, 33, 0.659);
+  border: 2px solid #ea587f;
   border-radius: 15px;
   max-width: 900px;
   margin: 2rem auto;
@@ -26,15 +26,15 @@ section {
 }
 
 h1 {
-  color: #ffd0e3; 
-  font-size: 2.5em;
+  color: #ffd0e3;
+  font-size: 1.75em;
   text-align: center;
   margin-bottom: 1em;
   text-shadow: 3px 3px 5px rgba(255, 196, 239, 0.3);
 }
 
 h2 {
-  color: #ffd0e3; 
+  color: #ffd0e3;
   border-bottom: 2px solid #5a1f3c;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
@@ -42,17 +42,16 @@ h2 {
 }
 
 h3 {
-  color: #b5004e; 
+  color: #b5004e;
   border-bottom: 2px solid #8a284f;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
   font-size: 1.5em;
 }
 
-
 .minor-section {
-  background: rgba(14, 9, 11, 0); 
-  border: 1px solid #ea587f; 
+  background: rgba(14, 9, 11, 0);
+  border: 1px solid #ea587f;
   border-radius: 10px;
   padding: 1rem;
   margin-top: 1em;
@@ -61,7 +60,7 @@ h3 {
 
 p {
   line-height: 1.6;
-  color: #ffacd0; 
+  color: #ffacd0;
 }
 
 #output {
@@ -70,6 +69,9 @@ p {
   padding: 1rem;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+}
+#output p {
+  color: rgb(128, 11, 11) !important;
 }
 
 #result {
@@ -84,7 +86,7 @@ nav#links {
 }
 
 nav#links a {
-  color: #e03373; 
+  color: #e03373;
   text-decoration: none;
   font-weight: bold;
   margin: 0 1rem;
@@ -95,28 +97,26 @@ nav#links a:hover {
   text-decoration: underline;
 }
 
-
 img {
   display: block;
   margin: 1em auto;
-  border: 3px solid #e3177a; 
+  border: 3px solid #e3177a;
   border-radius: 15px;
   width: 400px;
   height: auto;
 }
 @media (max-width: 600px) {
   main#content {
-      padding: 1rem;
+    padding: 1rem;
   }
   h1 {
-      font-size: 2em;
+    font-size: 2em;
   }
   h2 {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
   nav#links a {
-      display: block;
-      margin: 0.5rem 0;
+    display: block;
+    margin: 0.5rem 0;
   }
 }
-
