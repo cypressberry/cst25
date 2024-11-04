@@ -1,18 +1,19 @@
+/* Base styling for the body */
 body {
-  background: linear-gradient(135deg, #ffb54d, #ffdc3f); 
-  color: #3c2f2f; 
-  font-family: 'Georgia', serif; 
+  background-image: url("https://i.pinimg.com/originals/e9/20/ea/e920eaf0e244c8c031e651ced7a096ed.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #5d239f;
+  font-family: 'Georgia', serif;
   padding: 0;
   line-height: 1.6;
-  background-image: url(https://wallpaper-a-day.com/wp-content/uploads/2022/01/wallpaper57.png?w=2048); 
-  background-size: cover;
   display: flex;
   justify-content: center;
 }
 
 main#content {
-  background: rgba(32, 5, 75, 0.659); 
-  border: 2px solid #8400ff; 
+  background: rgba(45, 14, 95, 0.659);
+  border: 2px solid #8400ff;
   border-radius: 15px;
   max-width: 900px;
   margin: 2rem auto;
@@ -26,7 +27,7 @@ section {
 }
 
 h1 {
-  color: #ffd0e3; 
+  color: #ffd0e3;
   font-size: 2.5em;
   text-align: center;
   margin-bottom: 1em;
@@ -34,7 +35,7 @@ h1 {
 }
 
 h2 {
-  color: #ffd0e3; 
+  color: #ffd0e3;
   border-bottom: 2px solid #5a1f3c;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
@@ -42,17 +43,16 @@ h2 {
 }
 
 h3 {
-  color: #b5004e; 
+  color: #b5004e;
   border-bottom: 2px solid #8a284f;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
   font-size: 1.5em;
 }
 
-
 .minor-section {
-  background: rgba(14, 9, 11, 0); 
-  border: 1px solid #ea587f; 
+  background: rgba(14, 9, 11, 0);
+  border: 1px solid #ea587f;
   border-radius: 10px;
   padding: 1rem;
   margin-top: 1em;
@@ -61,7 +61,7 @@ h3 {
 
 p {
   line-height: 1.6;
-  color: #ffacd0; 
+  color: #ffacd0;
 }
 
 #output {
@@ -84,7 +84,7 @@ nav#links {
 }
 
 nav#links a {
-  color: #e03373; 
+  color: #e03373;
   text-decoration: none;
   font-weight: bold;
   margin: 0 1rem;
@@ -94,29 +94,55 @@ nav#links a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
-
-
-img {
-  display: block;
-  margin: 1em auto;
-  border: 3px solid #e3177a; 
-  border-radius: 15px;
-  width: 400px;
-  height: auto;
+.special {
+  background-color: rgba(255, 182, 193, 0.2); 
+  color: #ffb6c1;
 }
+
+.special h1, .special h2, .special h3 {
+  color: #ff69b4;
+  text-shadow: 1px 1px 5px rgba(255, 182, 193, 0.5);
+}
+.party {
+  background-image: url('https://motionbgs.com/media/6434/madoka-and-homura.jpg'); 
+  background-size: cover;
+  background-color: rgba(72, 61, 139, 0.9);
+  color: #c0c0c0;
+}
+
+.party h1, .party h2, .party h3 {
+  color: #ffaeee;
+  text-shadow: 2px 2px 8px rgba(75, 0, 130, 0.8);
+}
+
+.party p, .party ul, .party ol {
+  color: #e6e6fa;
+}
+
+.party button {
+  background-color: #4b0082;
+  color: #fff;
+  border: 1px solid #9400d3;
+}
+
+.party button:hover {
+  background-color: #9400d3;
+  color: #fff;
+}
+
+
 @media (max-width: 600px) {
   main#content {
-      padding: 1rem;
+    padding: 1rem;
   }
   h1 {
-      font-size: 2em;
+    font-size: 2em;
   }
   h2 {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
   nav#links a {
-      display: block;
-      margin: 0.5rem 0;
+    display: block;
+    margin: 0.5rem 0;
   }
 }
-
