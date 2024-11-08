@@ -1,122 +1,139 @@
+/* General Body Styling */
 body {
-  background: linear-gradient(135deg, #e3b84e, #ffc02c); /* Light golden-yellow gradient inspired by Mami's color scheme */
-  color: #3c2f2f; 
-  font-family: 'Georgia', serif; 
+  background: linear-gradient(135deg, #000000, #d6970f); 
+  color: #2f1a1a;
+  font-family: "Verdana", sans-serif;
   padding: 0;
   line-height: 1.6;
-  background-image: url(https://preview.redd.it/mami-tomoe-by-shuoruoranxing-v0-ubg8uwbviqpa1.jpg?width=1080&crop=smart&auto=webp&s=a65211f50b311f52bdf7a9106caac85b84fef710); 
+  background-image: url('https://images2.alphacoders.com/992/thumb-1920-992177.jpg');
   background-size: cover;
   display: flex;
   justify-content: center;
 }
 
+/* Main Content Styling */
 main#content {
-  background: rgba(255, 240, 190, 0.659); 
-  border: 2px solid #f6d155; 
+  background: rgba(66, 9, 9, 0.85); 
+  border: 2px solid #ec930e; 
   border-radius: 15px;
-  max-width: 900px;
+  max-width: 800px;
   margin: 2rem auto;
   padding: 1.5rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
-/* Section margins */
-section {
-  margin-bottom: 2rem;
-}
-
+/* Headers Styling */
 h1 {
-  color: #84360f; 
-  font-size: 2.5em;
+  color: #ff9a26;
+  font-size: 2em;
   text-align: center;
   margin-bottom: 1em;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  text-shadow: 4px 4px 6px rgba(255, 233, 196, 0.4);
 }
 
 h2 {
-  color: #bd6e07; 
-  border-bottom: 2px solid #5a3b1f;
+  color: #ffd3a3;
+  border-bottom: 2px solid #560707;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
-  font-size: 1.75em;
+  font-size: 1.6em;
+  text-shadow: 2px 2px 4px rgba(255, 186, 113, 0.5);
 }
-
-h3 {
-  color: #b57f00; 
-  border-bottom: 2px solid #8a5a28;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-  font-size: 1.5em;
-}
-
 
 .minor-section {
-  background: rgba(227, 184, 78, 0.7); 
-  border: 1px solid #e0ac69; 
+  background: rgba(144, 110, 0, 0.1);
+  border: 1px solid #ffab44;
   border-radius: 10px;
   padding: 1rem;
   margin-top: 1em;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(255, 182, 47, 0.3);
 }
 
 p {
   line-height: 1.6;
-  color: #5b3d1d; 
+  color: #eadcc1;
 }
 
+/* Message Output Styling */
 #output {
-  background: #f5e5be;
-  border: 2px solid #b3924d;
+  background: #f7eadd;
+  border: 2px solid #f5aa31;
   padding: 1rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+}
+#output .text p {
+  color: #333;
+}
+.user-text {
+  background-color: #ce6400; 
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.auto-text {
+  background-color: #ffd86d; 
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
 }
 
-#result {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Button and Input Styling */
+button#make-convo {
+  background: linear-gradient(135deg, #ce0000, #ec8004);
+  color: white;
+  padding: 0.8em 1.2em;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
+button#make-convo:hover {
+  background: linear-gradient(135deg, #ec8004, #ce0000);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+input#custom-text {
+  width: 100%;
+  padding: 0.8em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  border: 2px solid #ac4d00;
+}
+
+/* Navigation Links Styling */
 nav#links {
   margin-top: 2rem;
   text-align: center;
 }
 
 nav#links a {
-  color: #b4730a; 
+  color: #c63f00;
   text-decoration: none;
   font-weight: bold;
   margin: 0 1rem;
 }
 
 nav#links a:hover {
-  color: #ffe5a9;
+  color: #fffcf4;
   text-decoration: underline;
 }
 
-
-img {
-  display: block;
-  margin: 1em auto;
-  border: 3px solid #e3a617; 
-  border-radius: 15px;
-  width: 400px;
-  height: auto;
-}
 @media (max-width: 600px) {
   main#content {
-      padding: 1rem;
+    padding: 1rem;
   }
   h1 {
-      font-size: 2em;
+    font-size: 1.75em;
   }
   h2 {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
   nav#links a {
-      display: block;
-      margin: 0.5rem 0;
+    display: block;
+    margin: 0.5rem 0;
   }
 }
-
