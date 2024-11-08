@@ -11,6 +11,23 @@ body {
   justify-content: center;
 }
 
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+#output {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  display: inline-block;
+  max-width: 60%;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 16px;
+  color: white;
+  font-family: sans-serif;
+}
+
 /* Main Content Styling */
 main#content {
   background: rgba(66, 9, 9, 0.85); 
@@ -70,12 +87,14 @@ p {
   padding: 10px;
   margin: 5px;
   border-radius: 10px;
+  align-self: flex-end;
 }
 .auto-text {
   background-color: #ffd86d; 
   padding: 10px;
   margin: 5px;
   border-radius: 10px;
+  align-self: flex-start;
 }
 
 /* Button and Input Styling */
