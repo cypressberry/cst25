@@ -1,216 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
 body {
-  background: linear-gradient(135deg, #ffb54d, #ffdc3f);
-  color: #3c2f2f;
-  font-family: "Georgia", serif;
-  padding: 0;
-  line-height: 1.6;
-  background-image: url(https://images7.alphacoders.com/360/thumb-1920-360189.jpg);
-  background-size: cover;
-  display: flex;
-  justify-content: center;
+    font-family: 'Fira Code', monospace;
+    background-image: url('https://images4.alphacoders.com/293/thumb-1920-293604.jpg');
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-main#content {
-  background: rgba(34, 34, 34, 0.66);
-  border: 2px solid #e1e1e1;
-  border-radius: 15px;
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 1.5rem;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
-}
-
-/* Section margins */
-section {
-  margin-bottom: 2rem;
+#content {
+    background-color: rgba(34, 34, 68, 0.85);
+    border: solid 2px #aa88cc;
+    border-radius: 15px;
+    padding: 2rem;
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-  color: #efdfff;
-  font-size: 1.75em;
-  text-align: center;
-  margin-bottom: 1em;
-  text-shadow: 3px 3px 5px rgba(255, 196, 239, 0.3);
+    color: #f6eaff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
-  color: #dad0ffb5;
-  border-bottom: 2px solid #7d4bc629;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-  font-size: 1.75em;
+    color: #d6c4f2;
+    border-bottom: 2px solid #aa88cc;
+    margin: 1rem 0;
+    padding-bottom: 0.5rem;
 }
 
-h3 {
-  color: #b5004e;
-  border-bottom: 2px solid #7d4bc6;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-  font-size: 1.5em;
+label, p {
+    color: #e6d4ff;
+    font-size: 1rem;
 }
 
-.minor-section {
-  background: rgba(14, 9, 11, 0);
-  border: 1px solid #b6a5d566;
-  border-radius: 10px;
-  padding: 1rem;
-  margin-top: 1em;
-  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+input[type="text"] {
+    border: 1px solid #aa88cc;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 80%;
+    margin-bottom: 1rem;
+    background-color: #ede7f6;
+    color: #333333;
 }
 
-p {
-  line-height: 1.6;
-  color: #848188;
+button {
+    background-color: #9575cd;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(149, 117, 205, 0.7);
+}
+
+button:hover {
+    background-color: #7e57c2;
+    box-shadow: 0 0 15px rgba(149, 117, 205, 1);
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 8px rgba(149, 117, 205, 0.9);
+}
+
+.hidden {
+    display: none;
 }
 
 #output {
-  background: #f5d8ff12;
-  border: 1px solid #554db33d;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
-}
-#output p {
-  color: rgb(141, 112, 176) !important;
-}
-
-#result {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-nav#links {
-  margin-top: 2rem;
-  text-align: center;
-}
-
-nav#links a {
-  color: #867e93;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 0 1rem;
-}
-
-nav#links a:hover {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
-img {
-  display: block;
-  margin: 1em auto;
-  border: 3px solid #e3177a;
-  border-radius: 15px;
-  width: 400px;
-  height: auto;
-}
-@media (max-width: 600px) {
-  main#content {
+    margin-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 1rem;
-  }
-  h1 {
-    font-size: 2em;
-  }
-  h2 {
-    font-size: 1.5em;
-  }
-  nav#links a {
-    display: block;
-    margin: 0.5rem 0;
-  }
-}
-
-/* Container for the form */
-.form-container
-{
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin: 50px auto;
-    background-color: #dec4ec0e;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Styling for input fields */
-.form-container input[type="text"]
-{
-    border: 1px solid #cccccc36;
-    border-radius: 4px;
-    font-size: 12px;
-    width: 100%;
-    box-sizing: border-box;
-    transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-/* Focused input field effect */
-.form-container input[type="text"]:focus
-{
-    border-color: #43225da7;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-    outline: none;
-}
-
-/* Styling for submit button */
-.form-container input[type="submit"]
-{
-    background-color: #68596c;
-    color: rgba(135, 63, 63, 0.335);
-    border: none;
-    border-radius: 4px;
-    font-size: 12px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-/* Submit button hover effect */
-.form-container input[type="submit"]:hover
-{
-    background-color: #5a00b3;
-}
-
-/* Dark mode styling for input */
-#user-name {
-  background-color: #333;      /* Dark background color */
-  color: #eee;                 /* Light text color */
-  border: 1px solid #555;      /* Darker border for subtle contrast */
-  padding: 8px;                /* Padding for better readability */
-  border-radius: 4px;          /* Rounded corners */
-}
-
-/* Optional focus effect */
-#user-name:focus {
-  border-color: #888;          /* Slightly lighter border when focused */
-  outline: none;               /* Remove default outline */
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3); /* Subtle glow effect */
-}
-
-/* Dark mode styling for the submit button */
-#submit {
-  background-color: #181818;          /* Dark background color */
-  color: #e6d4ff;                     /* Light text color */
-  border: 1px solid #555;          /* Border for contrast */
-  padding: 10px 20px;              /* Padding for clickable area */
-  border-radius: 4px;              /* Rounded corners */
-  cursor: pointer;                 /* Pointer cursor to indicate it's clickable */
-  transition: background-color 0.3s, transform 0.2s; /* Smooth transition effects */
-}
-
-/* Hover effect for the button */
-#submit:hover {
-  background-color: #555;          /* Slightly lighter background on hover */
-  border-color: #666;              /* Border change for effect */
-}
-
-/* Active (pressed) effect for the button */
-#submit:active {
-  background-color: #666;          /* Darker background when pressed */
-  transform: scale(0.98);          /* Slightly shrink the button */
-}
-
-/* Optional: Focus effect for keyboard navigation */
-#submit:focus {
-  outline: none;                   /* Remove default outline */
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3); /* Subtle glow effect */
+    border: 1px solid #aa88cc;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
