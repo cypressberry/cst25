@@ -88,3 +88,24 @@ button:active {
     border: 1px solid #aa88cc;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
+nav#links {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+nav#links a {
+  color: #e1d4ff; /* Lighter color for better contrast */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem; /* Slightly larger text for readability */
+  padding: 0.5rem 1rem;
+  background-color: rgb(34 34 68 / 0%); /* Semi-transparent background for emphasis */
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav#links a:hover {
+  background-color: #7e57c2; /* Purple hover effect */
+  color: #ffffff; /* Ensure high contrast on hover */
+  text-decoration: underline;
+}
